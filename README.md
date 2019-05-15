@@ -31,3 +31,21 @@ Detailed in the jupyter notebook.
 
 ## Performance
 Test for model ckp_step_30000, Test R1: 0.8878535628318787, R5: 0.9840266108512878
+
+## Project Structure
+in `/config` you should find:
+
+- settings.py:          For parameters used in the project
+- backbone.py:       Backbone network
+- main.py:              Main program, run the training by `python main.py -a train', run the testing by 'python main.py -a test'
+- models.py:          Network models definition
+- solver.py:            Code of warm up learning rate
+- transforms.py:    Some transformation of the input images
+- clean.sh:             Clean the checkpoints and log
+
+
+
+## Run the Code
+Training: ```python main.py -a train```
+Testing:  ```python main.py -a test -m checkpoint_name```
+

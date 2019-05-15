@@ -25,3 +25,9 @@ Here,
 |mel| melanoma  |
 |nv| melanocytic nevi |
 |vasc| vascular lesions (angiomas, angiokeratomas, pyogenic granulomas and hemorrhage)|
+
+# Analysis
+Detailed in the jupyter notebook.
+
+## Performance
+Test for model ckp_step_30000, Test R1: 0.8878535628318787, R5: 0.9840266108512878
